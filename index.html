@@ -10,7 +10,7 @@ Attempting to perform the InitializeDefaultDrives operation on the 'FileSystem' 
 @media(max-width:620px){
  html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
  body{font-size:16px;overflow-x:hidden}
- .hero{padding:22px 17px}.hero small{font-size:11px}.hero h1{font-size:clamp(25px,7vw,32px)}.hero p{font-size:14px}
+ .hero{padding:calc(22px + env(safe-area-inset-top)) max(17px,env(safe-area-inset-right)) 22px max(17px,env(safe-area-inset-left))}.hero small{font-size:11px}.hero h1{font-size:clamp(25px,7vw,32px)}.hero p{font-size:14px}
  .wrap{margin:14px auto;padding:0 12px}
  .source-note{font-size:13px;padding:11px 12px;margin-bottom:12px}
  .tabs{gap:0;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;scrollbar-width:none;overscroll-behavior-x:contain;margin:0 -2px 12px;border-bottom:1px solid var(--line)}
