@@ -1,2 +1,0 @@
-# Safety-Checklist
-Inspection Checklist
